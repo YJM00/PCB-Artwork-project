@@ -1,6 +1,6 @@
 # PCB-Artwork-project
 
-## 기판 선정
+## 모듈 선정
 <img width="755" height="57" alt="image" src="https://github.com/user-attachments/assets/3595ffb3-5a8c-4bee-a6f7-b314ff55e177" />
 
 <img width="522" height="391" alt="image" src="https://github.com/user-attachments/assets/af902b75-aa67-4b04-ad99-b0a409e0b461" />
