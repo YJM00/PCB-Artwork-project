@@ -22,12 +22,14 @@
 ---
 
 ## PCB편집기
-<img width="878" height="811" alt="image" src="https://github.com/user-attachments/assets/f7021614-3d58-49a7-8821-5ca480007b4c" />
+<img width="856" height="807" alt="image" src="https://github.com/user-attachments/assets/82b5bb42-c7e8-439a-8a30-0e867433194d" />
+
 
 ---
 
 ## 3D뷰어
-<img width="1000" height="771" alt="image" src="https://github.com/user-attachments/assets/3af76a5d-b814-4a27-8041-cce5fcdd4c2c" />
+<img width="857" height="742" alt="image" src="https://github.com/user-attachments/assets/ff4c0abb-4845-420e-bba3-dbe2ff7810b0" />
+
 
 ---
 
