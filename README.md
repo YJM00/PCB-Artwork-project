@@ -5,7 +5,8 @@
 ---
 
 ## 📌 About NE555 Timer IC
-<img width="408" height="248" alt="image" src="https://github.com/user-attachments/assets/b00a1449-254c-426f-bb82-b0640908dc95" />
+<img width="1040" height="488" alt="image" src="https://github.com/user-attachments/assets/85df0124-470d-487d-9564-da83c68ea6ea" />
+
 
 NE555는 내부에 **2개의 비교기(Comparator), RS 래치, 방전 트랜지스터, 출력 드라이버**를 포함한 범용 타이머 IC입니다.
 
