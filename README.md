@@ -151,7 +151,7 @@ C = T/(0.693 (R_A + 2R_B))
 
 ## 🎯 6. Applications of Capacitive Sensing Module
 
-본 정전용량 센싱 방식은 다음과 같은 분야에서 활용됩니다:
+본 정전용량 센싱 방식은 사람/물체가 접근시 정전용량이 변화하는 원리를 이용하여 다음과 같은 분야에서 활용됩니다:
 
 ### 🔹 1. Touch Sensor
 - 터치 버튼
