@@ -149,7 +149,34 @@ C = T/(0.693 (R_A + 2R_B))
 
 ---
 
-## 🎯 6. Applications of Capacitive Sensing Module
+## 6.🧠 NE555 활용 예
+
+### 🔁 1) Astable Mode (비안정 모드, 발진기)
+
+> 외부 트리거 없이 지속적으로 HIGH/LOW를 반복하며 **사각파(Square Wave)** 를 생성하는 모드
+
+**✅ 활용 예시**
+- **Clock / Pulse Generator** : 카운터, 쉬프트레지스터 등 디지털 회로 테스트용 클럭
+- **LED Blinker / Flasher** : 상태 표시용 점멸 회로
+- **PWM Generator** : 간단한 모터 속도 제어, LED 밝기 조절
+- **Tone / Buzzer Driver** : 경고음(사이렌) 및 간단 신호음 발생
+- **Frequency-based Sensing** : RC 변화(정전용량/저항)에 따른 주파수 변화 측정
+
+
+### ⏱ 2) Monostable Mode (단안정 모드, Timer / One-shot)
+
+> 트리거 입력이 들어오면 한 번만 HIGH 펄스를 출력하고,  
+> 설정된 시간이 지나면 자동으로 LOW로 복귀하는 **원샷(One-shot) 타이머** 모드
+
+**✅ 활용 예시**
+- **Delay Timer** : 전원 인가 후 일정 시간 지연 후 동작(릴레이/부저/Enable)
+- **Pulse Generator** : 버튼 입력을 일정한 펄스 폭으로 변환
+- **Debounce / Pulse Stretching** : 스위치 바운스 제거, 짧은 신호를 길게 만들어 MCU가 읽기 쉽게
+- **Power-On Reset (POR) 보조** : 특정 시점까지 시스템을 강제 대기시키는 신호 생성
+
+---
+
+## 🎯 7. Applications of Capacitive Sensing Module
 
 본 정전용량 센싱 방식은 사람/물체가 접근시 정전용량이 변화하는 원리를 이용하여 다음과 같은 분야에서 활용됩니다:
 
@@ -163,21 +190,10 @@ C = T/(0.693 (R_A + 2R_B))
 - 근접 감지 모듈
 - 손 접근 감지
 
-### 🔹 3. Liquid Level Detection
-- 물통/탱크 수위 감지
-- 비접촉 액체 센싱
-- 산업용 레벨 모니터링
-
-### 🔹 4. Presence Detection
-- 착석 감지
-- 인체 감지 보조 센서
-- 간단한 안전 감지 시스템
-
-본 프로젝트는 **정전용량 변화 → 주파수 변화 → 측정 및 계산**의 구조를 이용하여  
-센싱의 기본 원리를 이해하는 데 목적이 있습니다.
+1. 터치 감지 2. 근접감지 용도로 활용됨
 
 ---
 
 
-## 7. 개발환경
+## 8. 개발환경
 <img width="1280" height="523" alt="img" src="https://github.com/user-attachments/assets/8dea7cfb-de0a-4c6b-84a8-ac4ef61a1b83" />
